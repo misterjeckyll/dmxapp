@@ -2,7 +2,7 @@
 > Android application for DMX protocol communication with RGB stage projectors.
 
 
-<img width=900 src="img/brain.png" style="margin-right: 20px">
+<img width=900 src="img/app.png" style="margin-right: 20px">
 
 ---
 📑 **Table of content**
@@ -19,8 +19,7 @@
 
 **Objectifs :**
 
-- Explorer la faisabilité temps et materiel
-- Mettre en place et concevoir un algo pour reconnaitre un char à voile dans une image
+- Build a DMW app with bluetooth connection to a remote arduino microcontroller connected to each lamps
 
 **Fonctionalités obligatoires:**
 
