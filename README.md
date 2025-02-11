@@ -17,24 +17,20 @@
 
 ## 👀 Overview
 
-**Objectifs :**
+**Objectives :**
 
 - Build a DMW app with bluetooth connection to a remote arduino microcontroller connected to each lamps
 
-**Fonctionalités obligatoires:**
+**Mandatory functionalities:**
 
-- [ ] Détection de char à voile dans une image
-- [ ] Tracking de char à voile dans une vidéo
-- [ ] Segmentation de la voile
-- [ ] Segmentation de la base du mat
-- [ ] Lecture du numéro de voile
+- [ ] Bluetooth device list and connection
+- [ ] DMX protocol messages sending
+- [ ] RGB lights android interface
 
-**Fonctionalités optionnelles:**
+**Optional functionalities:**
 
-- [ ] Recouvrement multi points de vues
-- [ ] Détection de dépassement de ligne virtuelle par des plots
-- [ ] Detection temps réel
-- [ ] Embarqué
+- [ ] SAve and load different setups
+- [ ]
 
 ## 💻 Installation
 Installation based on anaconda virtual environments.
