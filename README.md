@@ -19,8 +19,7 @@
 
 **Objectifs :**
 
-- Explorer la faisabilité temps et materiel
-- Mettre en place et concevoir un algo pour reconnaitre un char à voile dans une image
+
 
 **Fonctionalités obligatoires:**
 

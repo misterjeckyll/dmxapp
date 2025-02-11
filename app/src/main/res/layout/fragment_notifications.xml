@@ -6,33 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".ui.notifications.NotificationsFragment">
 
-    <TextView
-        android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="360dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626">
 
         <Button
             android:id="@+id/color_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="112dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
             android:text="COLOR" />
 
         <Button
@@ -42,6 +40,9 @@
             android:layout_above="@+id/load_button"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_marginEnd="133dp"
+            android:layout_marginRight="133dp"
+            android:layout_marginBottom="-53dp"
             android:text="Save" />
 
         <Button
@@ -51,30 +52,38 @@
             android:layout_above="@+id/save_button"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_marginEnd="252dp"
+            android:layout_marginRight="252dp"
+            android:layout_marginBottom="-45dp"
             android:text="Reset" />
 
         <Button
             android:id="@+id/load_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="18dp"
             android:text="Load" />
 
         <TextView
             android:id="@+id/current_chanel_value_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
             android:text="TextView" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="379dp"
+        android:layout_height="166dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="43dp">
 
         <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
             android:id="@+id/verticalSeekBarWrapper7"
@@ -91,11 +100,11 @@
                 android:id="@+id/channel7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -140,11 +149,11 @@
                 android:id="@+id/channel6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -166,11 +175,11 @@
                 android:id="@+id/channel5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -192,11 +201,11 @@
                 android:id="@+id/channel4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -218,11 +227,11 @@
                 android:id="@+id/channel3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -233,11 +242,11 @@
             android:id="@+id/verticalSeekBarWrapper1"
             android:layout_width="48dp"
             android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="25dp"
             android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0">
@@ -247,8 +256,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="291dp"
                 android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/verticalSeekBarWrapper2"
                 android:layout_toStartOf="@+id/verticalSeekBarWrapper2"
+                android:layout_toLeftOf="@+id/verticalSeekBarWrapper2"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
@@ -270,11 +279,11 @@
                 android:id="@+id/channel2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:layout_alignTop="@+id/verticalSeekBarWrapper2"
-                android:layout_marginLeft="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:max="100"
                 android:progress="50"
                 app:seekBarRotation="CW270" />
