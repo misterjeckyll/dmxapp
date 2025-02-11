@@ -15,6 +15,11 @@
 - [💬 Contact](#-contact)
 ---
 
+## Ideas for project
+
+
+
+
 ## 👀 Overview
 
 **Objectives :**
@@ -35,6 +40,9 @@
 ## 💻 Installation
 Installation based on anaconda virtual environments.
 Tested on Windows 10 Pro edition
+
+
+
 
 ### Prerequisites
 
