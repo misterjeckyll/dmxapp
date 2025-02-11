@@ -48,54 +48,51 @@
             android:layout_weight="0" />
 
 
-
-
         <Switch
             android:id="@+id/switch1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="66dp"
             android:layout_weight="0"
             android:text="Switch" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="162dp"
-        android:layout_height="143dp"
+        android:layout_width="163dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="22dp"
         android:layout_weight="0"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="93dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
 
         <Button
-            android:id="@+id/color_dialog_ok_button"
+            android:id="@+id/light_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Light 1 Off/On" />
 
         <Button
-            android:id="@+id/color_dialog_ok_button"
+            android:id="@+id/light_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Light 2 Off/On" />
 
         <Button
-            android:id="@+id/color_dialog_ok_button"
+            android:id="@+id/light_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
+            android:minHeight="48dip"
             android:text="Light 3 Off/On" />
-
-
-        <Button
-            android:id="@+id/color_dialog_cancel_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="Light 1 Off/On />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
