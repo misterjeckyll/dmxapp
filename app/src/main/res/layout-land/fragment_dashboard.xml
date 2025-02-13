@@ -5,78 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="388dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="29dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Main Dashboard"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="654dp"
         android:layout_height="300dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.972">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428">
+
 
         <NumberPicker
-            android:id="@+id/main_channel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0" />
+            android:id="@+id/main_channelr"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="Light_2" />
 
         <NumberPicker
-            android:id="@+id/r_channel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0" />
+            android:id="@+id/r_channelg"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:outlineAmbientShadowColor="@color/cardview_dark_background"
+            android:outlineSpotShadowColor="@color/black"
+            android:padding="5dp"
+            android:text="Level " />
 
+        <NumberPicker
+            android:id="@+id/r_channelb"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:outlineAmbientShadowColor="@color/cardview_dark_background"
+            android:outlineSpotShadowColor="@color/black"
+            android:padding="5dp"
+            android:text="Level " />
 
         <LinearLayout
-            android:layout_width="295dp"
-            android:layout_height="match_parent"
+            android:layout_width="356dp"
+            android:layout_height="261dp"
             android:layout_weight="0"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="14dp"
             tools:layout_editor_absoluteY="93dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Light_1
-"
-                android:textColor="#000000" />
             "
 
 
             <Button
-                android:id="@+id/color_dialog_ok_button"
+                android:id="@+id/color_dialog_ok_button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Light 1 Off/On" />
 
             <Button
-                android:id="@+id/color_dialog_ok_button"
+                android:id="@+id/color_dialog_ok_button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
@@ -84,16 +73,19 @@
                 tools:ignore="DuplicateIds" />
 
             <Button
-                android:id="@+id/color_dialog_ok_button"
+                android:id="@+id/color_dialog_ok_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Light 3 Off/On" />
 
             <Button
-                android:id="@+id/color_dialog_cancel_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/color_dialog_cancel_button4"
+                android:layout_width="146dp"
+                android:layout_height="97dp"
                 android:layout_weight="0"
                 android:text="All Lights Off/On />
 
+
+
+            <TextView

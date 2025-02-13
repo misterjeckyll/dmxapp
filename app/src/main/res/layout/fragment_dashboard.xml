@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="56dp">
+
+
 
     <TextView
         android:id="@+id/textView"
@@ -31,68 +34,45 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="121dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
-
-        <NumberPicker
-            android:id="@+id/main_channel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0" />
-        <NumberPicker
-            android:id="@+id/r_channel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0"/>
 
 
-        <Switch
-            android:id="@+id/switch1"
-            android:layout_width="125dp"
-            android:layout_height="66dp"
-            android:layout_weight="0"
-            android:text="Switch" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="163dp"
-        android:layout_height="147dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="232dp"
-        android:layout_marginBottom="22dp"
+    <NumberPicker
+        android:id="@+id/mainy_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="277dp"
         android:layout_weight="0"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/teal_200"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintGuide_end="391dp" />
 
+    <Button
+        android:id="@+id/color_dialog_cancel_button"
+        android:layout_width="146dp"
+        android:layout_height="97dp"
+        android:layout_weight="0"
+        android:text="All Lights Off/On />
 
-        <Button
-            android:id="@+id/light_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="Light 1 Off/On" />
-
-        <Button
-            android:id="@+id/light_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="Light 2 Off/On" />
-
-        <Button
-            android:id="@+id/light_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:minHeight="48dip"
-            android:text="Light 3 Off/On" />
-    </LinearLayout>
+    <Button
+        android:id="
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="83dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
