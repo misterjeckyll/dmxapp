@@ -7,21 +7,12 @@
     android:rotationX="-6"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="312dp" />
 
     <TextView
-        android:id="@+id/device_name"
-        android:layout_width="fill_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="189dp"></TextView>
-
+        android:text="TextView"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="198dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
