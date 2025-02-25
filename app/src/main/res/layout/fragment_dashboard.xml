@@ -19,7 +19,7 @@
         android:layout_marginTop="84dp"
         android:layout_marginEnd="36dp"
         android:contentDescription="@string/app_name"
-        android:text="All lights off"
+        android:text="@string/all_lights_off_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline" />
 
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="36dp"
-        android:text="All lights off"
+        android:text="@string/all_lights_off"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="164dp"
-        android:text="TextView"
+        android:text="@string/textview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +79,7 @@
             android:layout_width="71dp"
             android:layout_height="63dp"
             android:layout_marginBottom="12dp"
-            android:text="Up"
+            android:text="@string/up"
             app:layout_constraintBottom_toTopOf="@+id/verticalSeekBarWrapper20"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.35"
@@ -90,7 +90,7 @@
             android:layout_width="77dp"
             android:layout_height="50dp"
             android:layout_marginBottom="12dp"
-            android:text="Down"
+            android:text="@string/down"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

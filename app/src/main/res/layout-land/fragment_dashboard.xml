@@ -8,7 +8,7 @@
         android:id="@+id/color_dialog_ok_button13"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Light 3 Off/On"
+        android:text="@string/light_3_off_on"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -17,7 +17,7 @@
         android:id="@+id/color_dialog_ok_button11"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Light 2 Off/On"
+        android:text="@string/light_2_off_on"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/color_dialog_ok_button13" />
@@ -26,7 +26,7 @@
         android:id="@+id/color_dialog_ok_button12"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Light 1 Off/On"
+        android:text="@string/light_1_off_on"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/color_dialog_ok_button11" />
@@ -36,7 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="@string/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

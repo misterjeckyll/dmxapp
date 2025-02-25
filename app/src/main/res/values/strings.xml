@@ -3,4 +3,38 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_table">table</string>
+
+
+    <string name="channel_label">Channel</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="value_available">value available</string>
+    <string name="base_channel_address_d001">Base Channel Address (d001)</string>
+    <string name="total">Total</string>
+    <string name="green">Green</string>
+    <string name="blue">blue</string>
+    <string name="_5_white">5 White</string>
+    <string name="_010">010</string>
+    <string name="down">Down</string>
+    <string name="textview">TextView</string>
+    <string name="all_lights_off">All lights off</string>
+    <string name="all_lights_off_1">All lights off</string>
+    <string name="up">Up</string>
+    <string name="all_lights_off_2">All lights off</string>
+    <string name="light_2_off_on">Light 2 Off/On</string>
+    <string name="light_1_off_on">Light 1 Off/On</string>
+    <string name="button">Button</string>
+    <string name="light_3_off_on">Light 3 Off/On</string>
+    <string name="red">Red</string>
+    <string name="_1_512_address_1">1  512</string>
+    <string name="_0_255">0 - 255_address2</string>
+    <string name="_010_used_address_1">010</string>
+    <string name="_010_use_address_2">010</string>
+    <string name="_010_use_address_3">010</string>
+    <string name="_010_use_address_4">010_use_address_2</string>
+    <string name="_010_use_address_5">010v</string>
+    <string name="light_1_shelhds_title">Light 1 shelhds_title</string>
+    <string name="channel_1">Channel</string>
+
+
 </resources>
