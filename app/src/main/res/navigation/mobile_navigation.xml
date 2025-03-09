@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/setup"
-        android:name="com.example.dmxinterface.setup"
-        android:label="fragment_setup"
+        android:name="com.example.dmxinterface.ui.setup.SetupFragment"
+        android:label="@string/title_setup"
         tools:layout="@layout/fragment_setup" />
 </navigation>
