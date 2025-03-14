@@ -10,22 +10,20 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.dmxinterface.databinding.FragmentDashboardBinding;
+import com.example.dmxinterface.databinding.FragmentSetupBinding;
 
 public class SetupFragment extends Fragment {
 
-    private FragmentDashboardBinding binding;
+    private FragmentSetupBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         SetupViewModel dashboardViewModel =
                 new ViewModelProvider(this).get(SetupViewModel.class);
 
-        binding = FragmentDashboardBinding.inflate(inflater, container, false);
+        binding = FragmentSetupBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textView;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

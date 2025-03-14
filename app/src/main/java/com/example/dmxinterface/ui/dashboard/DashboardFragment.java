@@ -23,9 +23,17 @@ public class DashboardFragment extends Fragment {
 
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+        root.setRotationX(0);
+        root.setRotationY(0);
+        root.setRotation(0);
+        root.setScaleX(1);
+        root.setScaleY(1);
+        root.setPivotX(root.getWidth() / 2);
+        root.setPivotY(root.getHeight() / 2);
+        root.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
 
         final TextView textView = binding.textView;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

@@ -17,10 +17,9 @@
         android:title="@string/title_notifications" />
 
     <item
-        android:id="@+id/setup"
+        android:id="@+id/navigation_setup"
         android:icon="@drawable/tune_24px"
-        android:title="setup" />
-
+        android:title="Setup" />
 
     <item
         android:id="@+id/table"
